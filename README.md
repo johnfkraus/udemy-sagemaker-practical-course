@@ -1,7 +1,9 @@
 # udemy-sagemaker-practical-course
 
-Source: 
-https://www.udemy.com/course/practical-aws-sagemaker-6-real-world-case-studies/learn/lecture/20041184#questions/12536442
+This repo pertains to the following udemy.com online course:
+https://www.udemy.com/course/practical-aws-sagemaker-6-real-world-case-studies
+
+
 
 
 broken udemy sagemaker code:
@@ -10,6 +12,10 @@ broken udemy sagemaker code:
 •	try
 •	from sagemaker.image_uris import retrieve
 •	container = retrieve('linear-learner', boto3.Session().region_name)
+
+
+A different sagemaker course helpfully updated its code in this github commit: https://githubmemory.com/repo/ACloudGuru-Resources/Course_AWS_Certified_Machine_Learning/issues/5
+
 
 •	@Aruun I am making changes throughout the entire course for deprecated methods from the SageMaker Python SDK v2.x. THANK YOU for pointing these out and bringing it to my attention. There are more than the ones you have pointed out. I advise going through and "redownloading" the Juypter notebooks that have been updated.
 •	I have pushed all of the changes. These includes:
